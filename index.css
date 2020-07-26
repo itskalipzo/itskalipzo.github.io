@@ -42,7 +42,7 @@ body,html {
     display:block;
 }
 #title {
-    font-size:40px;
+    font-size:50px;
     background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
     -webkit-background-clip:text;
     background-clip:text;
@@ -116,46 +116,6 @@ body,html {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
-#contact form {
-    width:100%;
-}
-#contact form input {
-    width:46%;
-    margin:20px 1%;
-    background:transparent;
-    border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
-    padding:8px 10px;
-    font-family: 'Comfortaa', cursive;
-    font-size:18px;
-    transition:0.4s ease-in-out;
-    color:#fff;
-}
-#contact form textarea {
-    width:96%;
-    margin:20px 1%;
-    padding:8px 10px;
-    border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
-    padding:8px 10px;
-    font-family: 'Comfortaa', cursive;
-    font-size:18px;
-    background:transparent;
-    resize:none;
-    transition:0.4s ease-in-out;
-    color:#fff;
-}
-#contact form input:focus {
-    outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
-}
-#contact form textarea:focus {
-    outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
-}
-::placeholder {
-    color:#fff;
-}
 .btn_one {
     color:white;
     padding:10px 40px;
@@ -175,23 +135,6 @@ body,html {
 }
 .project div {
     font-weight:normal;
-}
-.btn_two {
-    color:#000;
-    padding:10px 40px;
-    border-radius:50px;
-    border:2px solid #fff;
-    font-size:18px;
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    background:#fff;
-    transition:0.4s ease-in-out;
-    margin:30px 10px;
-}
-.btn_two:hover {
-    background:transparent;
-    cursor:pointer;
-    color:#fff;
 }
 #details {
     margin:6vh 0px;
@@ -236,16 +179,6 @@ body,html {
     .btn_one {
         font-size:14px;
         padding:8px 20px;
-    }
-    .btn_two {
-        font-size:14px;
-        padding:8px 20px;
-    }
-    #contact form input {
-        width:92%;
-    }
-    #contact form textarea {
-        width:92%;
     }
     .btn_social {
         font-size:14px;
