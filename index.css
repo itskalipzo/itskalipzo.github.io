@@ -1,7 +1,7 @@
 body,html {
     padding:0px;
     margin:0px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-weight:bold;
     color:#fff;
     background:rgb(0, 0, 0);
@@ -52,7 +52,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 #links {
     margin:40px 0px;
@@ -102,7 +102,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 #music {
     margin:4vh 0px !important;
@@ -122,7 +122,7 @@ body,html {
     border-radius:50px;
     border:2px solid #fff;
     font-size:18px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Permanent Marker', cursive;
     font-weight:bold;
     background:transparent;
     transition:0.4s ease-in-out;
@@ -203,7 +203,7 @@ body,html {
     -moz-animation: Gradient 20s ease infinite;
     -o-animation: Gradient 20s ease infinite;
     animation: Gradient 20s ease infinite;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Permanent Marker', cursive;
     text-decoration:none;
 }
 button:focus {
