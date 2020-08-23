@@ -76,7 +76,7 @@ body,html {
 #middle {
     width:100%;
     height:80vh;
-    background-image: url(main.png); 
+    background-image: url(main.jpg); 
     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)), center center fixed;
 /*     background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("main.jpg") center center fixed; */
     background-size:100% auto;
@@ -91,7 +91,7 @@ body,html {
 
         @media only screen and (max-width: 800px) {
           #middle { 
-                background-image: url(smmain.png); 
+                background-image: url(smmain.jpg); 
                     background-attachment:scroll;
     
             }
