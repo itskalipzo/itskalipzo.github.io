@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+
+    <style>
+        #home-section { 
+            background-image: url(main.png); 
+        }
+        @media only screen and (max-width: 800px) {
+          #home-section { 
+                background-image: url(smmain.png); 
+                    background-attachment:scroll;
+    
+            }
+        }
+        </style>
+
+
 </head>
 
 <body>
@@ -55,8 +70,8 @@
         <div id="press">
             <h1>press.</h1>
 
-            <div>
-                <img src="main.png" style="width:100%">
+            <div id="home-section">
+                <!-- <img src="main.png" style="width:100%"> -->
             </div>
 
             <!-- Photo Grid -->
