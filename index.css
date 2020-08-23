@@ -89,14 +89,15 @@ body,html {
     padding-top:20vh;
 }
 
-        @media only screen and (max-width: 800px) {
-          #middle { 
-                background-image: url(smmain.jpg); 
-                    background-attachment:scroll;
-    
-            }
-        }
-
+@media (max-width: 900px)
+#middle {
+    background-image: url(smmain.jpg); 
+    width: 100%;
+    border-radius: 0px;
+    height: 80vh;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;   
 
 #tagline {
     font-size:50px;
