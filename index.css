@@ -97,12 +97,13 @@ body,html {
     background-position: center;
 }
 
-@media only screen and (max-width: 900px)
+
+/* @media only screen and (max-width: 900px)
 #middle {
     background-image: url(smmain.jpg);
     background-attachment: fixed; 
 }
-
+ */
 
 #tagline {
     font-size:50px;
