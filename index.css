@@ -89,15 +89,22 @@ body,html {
     padding-top:20vh;
 }
 
+
+
+
 @media (max-width: 900px)
 #middle {
-    background-image: url(smmain.jpg); 
     width: 100%;
     border-radius: 0px;
     height: 80vh;
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
-    background-attachment: fixed;   
+}
+
+@media only screen and (max-width: 900px)
+#middle {
+    background-image: url(smmain.jpg);
+    background-attachment: fixed; 
 
 #tagline {
     font-size:50px;
